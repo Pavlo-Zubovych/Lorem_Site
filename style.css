@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background: #c0c0c0;
@@ -26,6 +30,7 @@ h1 {
 
 .header .active {
   color: #048a8a;
+  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -72,33 +77,53 @@ li {
 .jobs h2 {
   text-align: center;
   color: #048a8a;
-  font-size: 35px;
+  text-shadow: 2px 3px 6px #000000;
+  font-size: 38px;
+}
+
+.go__toTop {
+  text-decoration: none;
+  background: #048a8a;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #e0dfdf;
+
+  padding: 20px;
+  display: block;
+  width: 130px;
+  margin: 30px auto;
 }
 
 /* Job items */
 .item {
+  background: #e0dfdf;
   border: 3px solid #048a8a;
   border-radius: 30px;
   padding: 30px;
-  box-shadow: 0 0 15px #000000;
+  box-shadow: 2px 2px 15px #000000;
   margin-bottom: 30px;
 }
 
 .item h3 {
+  font-size: 21px;
   font-style: italic;
-  display: inline;
+  display: inline-block;
+  width: 160px;
 }
 
 .item span {
   color: rgb(171, 7, 4);
   font-weight: bold;
   font-size: 18px;
-  margin-right: 520px;
+  margin-right: 530px;
 }
 
 .item a {
   text-decoration: none;
+  font-weight: bold;
   background-color: #048a8a;
+  color: #e0dfdf;
   border-radius: 5px;
   padding: 10px 15px;
 }
