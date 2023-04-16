@@ -7,6 +7,7 @@ body {
   background: #c0c0c0;
   margin: 0;
 }
+
 /* Header */
 .header {
   background: #292929;
@@ -41,6 +42,7 @@ ul a {
 li {
   margin-right: 30px;
 }
+/* ___________________________________________ */
 
 /* Index Content */
 .content {
@@ -67,6 +69,64 @@ li {
 .content p {
   padding: 20px 30px;
 }
+/* ___________________________________________ */
+
+/* News*/
+.news {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.news h2 {
+  text-align: center;
+  color: #048a8a;
+  text-shadow: 2px 3px 6px #000000;
+  font-size: 38px;
+}
+
+/* News item */
+.news__item {
+  margin: 20px 0 0 20px;
+  width: 300px;
+  background: #e0dfdf;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.news__item__text {
+  padding: 0 8px 8px;
+}
+
+.news__item__text h4 {
+  margin: 10px 0 0 0;
+}
+
+.news__item__text p {
+  margin: 0 0 5px 0;
+}
+
+.news__item img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.news__item__text hr {
+  margin: 0;
+}
+
+.news__item__text__bottom {
+  padding: 0 0 0 3px;
+}
+
+.news__item__text span {
+}
+
+.news__item__text a {
+  text-decoration: none;
+  color: #048a8a;
+  padding: 0 0 0 150px;
+}
+/* ___________________________________________ */
 
 /* Jobs */
 .jobs {
@@ -96,7 +156,7 @@ li {
 }
 
 /* Job items */
-.item {
+.jobs .item {
   background: #e0dfdf;
   border: 3px solid #048a8a;
   border-radius: 30px;
@@ -105,21 +165,21 @@ li {
   margin-bottom: 30px;
 }
 
-.item h3 {
+.jobs .item h3 {
   font-size: 21px;
   font-style: italic;
   display: inline-block;
   width: 160px;
 }
 
-.item span {
+.jobs .item span {
   color: rgb(171, 7, 4);
   font-weight: bold;
   font-size: 18px;
   margin-right: 530px;
 }
 
-.item a {
+.jobs .item a {
   text-decoration: none;
   font-weight: bold;
   background-color: #048a8a;
@@ -127,3 +187,4 @@ li {
   border-radius: 5px;
   padding: 10px 15px;
 }
+/* ___________________________________________ */
