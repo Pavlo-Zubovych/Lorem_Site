@@ -3,7 +3,10 @@ html {
 }
 
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* font-size: small; */
+  /* 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   background: #c0c0c0;
   margin: 0;
 }
@@ -73,8 +76,9 @@ li {
 
 /* News*/
 .news {
-  width: 1000px;
+  width: 969px;
   margin: 0 auto;
+  /* border: #048a8a 1px solid; */
 }
 
 .news h2 {
@@ -86,11 +90,13 @@ li {
 
 /* News item */
 .news__item {
-  margin: 20px 0 0 20px;
+  margin: 20px 10px 0 10px;
+  padding: 15px 15px 0;
   width: 300px;
   background: #e0dfdf;
   border-radius: 5px;
   display: inline-block;
+  box-sizing: border-box;
 }
 
 .news__item__text {
@@ -107,6 +113,8 @@ li {
 
 .news__item img {
   width: 100%;
+  height: 162px;
+  object-fit: cover;
   border-radius: 5px 5px 0 0;
 }
 
@@ -124,7 +132,7 @@ li {
 .news__item__text a {
   text-decoration: none;
   color: #048a8a;
-  padding: 0 0 0 150px;
+  padding: 0 0 0 112px;
 }
 /* ___________________________________________ */
 
@@ -144,7 +152,7 @@ li {
 .go__toTop {
   text-decoration: none;
   background: #048a8a;
-  border-radius: 30px;
+  border-radius: 15px;
   text-align: center;
   font-weight: bold;
   color: #e0dfdf;
@@ -169,14 +177,14 @@ li {
   font-size: 21px;
   font-style: italic;
   display: inline-block;
-  width: 160px;
+  width: 190px;
 }
 
 .jobs .item span {
   color: rgb(171, 7, 4);
   font-weight: bold;
   font-size: 18px;
-  margin-right: 530px;
+  margin-right: 460px;
 }
 
 .jobs .item a {
